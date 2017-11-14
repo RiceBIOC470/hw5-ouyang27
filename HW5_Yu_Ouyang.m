@@ -1,4 +1,17 @@
 %HW5
+%GB Comments:
+1a 70 questions asks to save an image in the repository. Or at the very least provide the script to visualize the image 
+1b 90 You may have improved the mask, but you learned many other approaches to segment cells. For example, using watershed would have greatly improved the image. 
+1c 70 same issue has 1a. 		
+1d 90 There is still a significant portion of cells that are not segmented well. 
+
+Comments apply to each of the following questions: 
+You have recognized that your script does not work, yet you submit it as complete. Second you can’t simply apply the same morphological transformations to every image and expect that it will make each mask properly. Each image is unique and different approaches are need to process the image properly.
+2yeast: 50. 
+2worm: 50
+2bacteria: 50 
+2phase: 50
+Overall: 65
 
 % Note. You can use the code readIlastikFile.m provided in the repository to read the output from
 % ilastik into MATLAB.
